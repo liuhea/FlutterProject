@@ -39,3 +39,15 @@ Doctor summary (to see all details, run flutter doctor -v):
 
 ​	(2) 否则尝试使用以下方法: https://blog.csdn.net/langzxz/article/details/80933515
 
+3.图片资源无法加载
+```
+Error on line 30, column 4 of pubspec.yaml: Expected a key while parsing a block mapping.
+   assets:
+   ^
+pub get failed (65)
+```
+
+## 其他
+    1. 在Dart语言中使用下划线前缀标识符，会强制其变成私有的。
+    2. 在Flutter中，导航器管理应用程序的路由栈。
+    将路由推入（push）到导航器的栈中，将会显示更新为该路由页面。 从导航器的栈中弹出（pop）路由，将显示返回到前一个路由。
