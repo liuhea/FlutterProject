@@ -7,6 +7,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
+      theme: new ThemeData(primaryColor: Colors.green),
       home: new RandomWords(),
     );
   }
@@ -80,7 +81,8 @@ class RandomWordsState extends State<RandomWords> {
           ),
         );
       });
-      final divided = ListTile.divideTiles(tiles: tiles, context: context).toList();
+      final divided =
+          ListTile.divideTiles(tiles: tiles, context: context).toList();
 
       return new Scaffold(
         appBar: new AppBar(
